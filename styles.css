@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+
+input {
+    border: 1px solid #CCC;
+    padding: .5em;
+    font-size: 1em;
+    width: calc(100% - 1em);
+}
+
+input:focus {
+    border-color: #000;
+}
+
+.error-message {
+    color: red;
+    font-size: .875em;
+    display: none;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+input.valid {
+    border-color: green;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
